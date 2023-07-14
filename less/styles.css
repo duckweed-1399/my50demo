@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  background: #fff;
+}
+header .logo {
+  background: forestgreen;
+}
+header .nav {
+  background: mediumorchid;
+}
+.hello {
+  width: 100px;
+  height: 110px;
+  background: linear-gradient(90deg, #7d5fff, #7158e2);
+}

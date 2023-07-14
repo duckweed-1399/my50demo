@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #99CCCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+
+}
+
+.btn{
+    background-color: #CCFFFF;
+    border-radius: 18px;
+    border: none;
+    color: #FFCCCC;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* 添加阴影效果 */
+}
+
+.btn:hover{
+opacity: 0.7;
+}
+
+.btn:focus{
+    outline: none;
+}
